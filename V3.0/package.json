@@ -1,0 +1,24 @@
+{
+  "name": "binance-price-monitor",
+  "version": "2.0.0",
+  "description": "币安合约标记价格监控系统 - 支持跨设备同步",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "binance",
+    "price",
+    "monitor",
+    "websocket",
+    "alert"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5"
+  }
+}
